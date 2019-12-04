@@ -1,0 +1,29 @@
+{
+    "name": "scancode/setting-print-auto-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SettingPrintAuto\\Providers\\SettingPrintAutoServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SettingPrintAuto\\": ""
+        }
+    },
+    "type": "laravel-module",
+    "require": {
+        "scancode/portal-module": "0.*"
+    }
+}

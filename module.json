@@ -1,0 +1,14 @@
+{
+    "name": "SettingPrintAuto",
+    "alias": "settingprintauto",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SettingPrintAuto\\Providers\\SettingPrintAutoServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
