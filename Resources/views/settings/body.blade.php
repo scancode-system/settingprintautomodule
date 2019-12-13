@@ -1,5 +1,4 @@
 {{ Form::model($event_setting->configurable, ['route' => ['settingprintauto.update', $event_setting->configurable], 'method' => 'put']) }}
-
 <div class="form-group">
 	{{ Form::label('number_copies', 'Número de vias') }}
 	{{ Form::text('number_copies', null, ['class' => 'form-control']) }}
