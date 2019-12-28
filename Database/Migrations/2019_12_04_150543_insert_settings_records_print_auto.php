@@ -14,7 +14,7 @@ class InsertSettingsRecordsPrintAuto extends Migration
      */
     public function up()
     {
-        Setting::create(['module' => 'SettingPrintAuto', 'alias' => 'Impressão']);
+        Setting::create(['module' => 'SettingPrintAuto', 'alias' => 'Impressão', 'import' => 'PrintAuto@setting']);
     }
 
     /**
